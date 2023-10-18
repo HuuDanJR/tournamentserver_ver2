@@ -1,0 +1,43 @@
+{
+  "name": "point_portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api.js"
+  },
+  "dependencies": {
+    "@novastar/screen": "^2.0.0-alpha.10",
+    "axios": "^1.1.2",
+    "body-parser": "^1.20.0",
+    "chokidar": "^3.5.3",
+    "cors": "^2.8.5",
+    "dgram": "^1.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "mongoose-sequence": "^5.3.1",
+    "morgan": "^1.10.0",
+    "mssql": "^8.1.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-cmd": "^5.0.0",
+    "node-cron": "^3.0.2",
+    "node-datetime": "^2.1.2",
+    "path": "^0.12.7",
+    "soap": "^0.45.0",
+    "socket.io": "^4.7.1",
+    "swagger-ui-express": "^4.5.0",
+    "url": "^0.11.1",
+    "xlsx": "^0.18.5",
+    "xml2js": "^0.4.23"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
